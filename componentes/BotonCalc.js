@@ -11,7 +11,7 @@ export default class BotonCalc extends Component {
   render() {
     const { texto } = this.props;
     return (
-      <TouchableOpacity style={styles.container} onPress={() => this.props.pulsar(texto)} >
+      <TouchableOpacity style={styles.container} onPress={() => this.props.pulsado(texto)} >
         <Text style={styles.texto}>{texto}</Text>
       </TouchableOpacity>
     );
